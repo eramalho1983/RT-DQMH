@@ -36,6 +36,7 @@
 			<Item Name="SubVIs" Type="Folder">
 				<Item Name="Read Analog Input.vi" Type="VI" URL="../Read Analog Input.vi"/>
 				<Item Name="Write TDMS.vi" Type="VI" URL="../Write TDMS.vi"/>
+				<Item Name="Write to UDP.vi" Type="VI" URL="../Write to UDP.vi"/>
 				<Item Name="Read Digital Input.vi" Type="VI" URL="../Read Digital Input.vi"/>
 			</Item>
 			<Item Name="Type Defs" Type="Folder">
