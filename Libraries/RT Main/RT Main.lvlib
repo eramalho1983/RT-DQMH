@@ -35,9 +35,11 @@
 		<Item Name="Control Loop" Type="Folder">
 			<Item Name="SubVIs" Type="Folder">
 				<Item Name="Read Analog Input.vi" Type="VI" URL="../Read Analog Input.vi"/>
+				<Item Name="Read RT FIFO HW.vi" Type="VI" URL="../Read RT FIFO HW.vi"/>
 				<Item Name="Write TDMS.vi" Type="VI" URL="../Write TDMS.vi"/>
 				<Item Name="Write to UDP.vi" Type="VI" URL="../Write to UDP.vi"/>
 				<Item Name="Read Digital Input.vi" Type="VI" URL="../Read Digital Input.vi"/>
+				<Item Name="Read from UDP.vi" Type="VI" URL="../Read from UDP.vi"/>
 			</Item>
 			<Item Name="Type Defs" Type="Folder">
 				<Item Name="Control Loop Cluster.ctl" Type="VI" URL="../Control Loop Cluster.ctl"/>
@@ -67,8 +69,10 @@
 		<Item Name="Private Requests" Type="Folder">
 			<Item Name="Priv Req Arguments" Type="Folder">
 				<Item Name="Launch Control Loop Argument--cluster.ctl" Type="VI" URL="../Launch Control Loop Argument--cluster.ctl"/>
+				<Item Name="RT FIFO Ref Argument--cluster.ctl" Type="VI" URL="../RT FIFO Ref Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Launch Control Loop.vi" Type="VI" URL="../Launch Control Loop.vi"/>
+			<Item Name="Get RT FIFO HW Ref.vi" Type="VI" URL="../Get RT FIFO HW Ref.vi"/>
 		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
@@ -114,6 +118,10 @@
 	</Item>
 	<Item Name="Type Def" Type="Folder">
 		<Item Name="Modules Launched.ctl" Type="VI" URL="../Modules Launched.ctl"/>
+		<Item Name="Hardware Monitoring.ctl" Type="VI" URL="../Hardware Monitoring.ctl"/>
+	</Item>
+	<Item Name="SubVIs" Type="Folder">
+		<Item Name="FGV RTFIFO HW.vi" Type="VI" URL="../FGV RTFIFO HW.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

@@ -113,6 +113,7 @@
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="DI Inputs -- constant.vi" Type="VI" URL="../DI Inputs -- constant.vi"/>
 		<Item Name="AI Inputs -- constant.vi" Type="VI" URL="../AI Inputs -- constant.vi"/>
+		<Item Name="File Path Host -- constant.vi" Type="VI" URL="../File Path Host -- constant.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

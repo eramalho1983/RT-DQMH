@@ -55,9 +55,11 @@
 			<Item Name="Priv Req Arguments" Type="Folder">
 				<Item Name="Open UDP Connection Argument--cluster.ctl" Type="VI" URL="../Open UDP Connection Argument--cluster.ctl"/>
 				<Item Name="Get UDP Info Argument--cluster.ctl" Type="VI" URL="../Get UDP Info Argument--cluster.ctl"/>
+				<Item Name="Recording Argument--cluster.ctl" Type="VI" URL="../Recording Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Open UDP Connection.vi" Type="VI" URL="../Open UDP Connection.vi"/>
 			<Item Name="Get UDP Info.vi" Type="VI" URL="../Get UDP Info.vi"/>
+			<Item Name="Recording.vi" Type="VI" URL="../Recording.vi"/>
 		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
