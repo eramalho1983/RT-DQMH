@@ -19,7 +19,6 @@
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Measurement Data.ctl" Type="VI" URL="../Measurement Data.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
-				<Item Name="Log Data to File Argument--cluster.ctl" Type="VI" URL="../Log Data to File Argument--cluster.ctl"/>
 				<Item Name="Create TDMS File Argument--cluster.ctl" Type="VI" URL="../Create TDMS File Argument--cluster.ctl"/>
 				<Item Name="Close TDMS File Argument--cluster.ctl" Type="VI" URL="../Close TDMS File Argument--cluster.ctl"/>
 				<Item Name="Write Data Argument--cluster.ctl" Type="VI" URL="../Write Data Argument--cluster.ctl"/>
@@ -37,7 +36,6 @@
 			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
-			<Item Name="Log Data to File.vi" Type="VI" URL="../Log Data to File.vi"/>
 			<Item Name="Close TDMS File.vi" Type="VI" URL="../Close TDMS File.vi"/>
 			<Item Name="Create TDMS File.vi" Type="VI" URL="../Create TDMS File.vi"/>
 			<Item Name="Write Data.vi" Type="VI" URL="../Write Data.vi"/>
