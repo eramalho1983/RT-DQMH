@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="23008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -78,6 +78,7 @@
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
@@ -89,7 +90,7 @@
 	</Item>
 	<Item Name="NI-myRIO-1900-030490ba" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">NI-myRIO-1900-030490ba</Property>
-		<Property Name="alias.value" Type="Str">192.168.1.163</Property>
+		<Property Name="alias.value" Type="Str">172.22.11.2</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,ARM;DeviceCode,762F;FPGAPersonality,myRIO_FP_Custom;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">762F</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
@@ -1693,7 +1694,14 @@ AddOutputFilter chunkFilter
 				<Item Name="ELVIS III v1.0 Connector List.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/ELVIS III v1.0/Resource Manager/typedefs/ELVIS III v1.0 Connector List.ctl"/>
 				<Item Name="ELVIS III v1.0 Read AI.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/ELVIS III v1.0/AI/vis/ELVIS III v1.0 Read AI.vi"/>
 				<Item Name="ELVIS III v1.0 Read DIO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/ELVIS III v1.0/DIO/vis/ELVIS III v1.0 Read DIO.vi"/>
+				<Item Name="ELVIS III v1.0 RIO Session Map Action.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/ELVIS III v1.0/Resource Manager/typedefs/ELVIS III v1.0 RIO Session Map Action.ctl"/>
+				<Item Name="ELVIS III v1.0 RPC App Ref.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/ELVIS III v1.0/Resource Manager/vis/ELVIS III v1.0 RPC App Ref.vi"/>
+				<Item Name="ELVIS III v1.0 RPC Session Map.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/ELVIS III v1.0/Resource Manager/vis/ELVIS III v1.0 RPC Session Map.vi"/>
+				<Item Name="ELVIS III v1.0 RPC Unregister Abort.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/ELVIS III v1.0/Resource Manager/vis/ELVIS III v1.0 RPC Unregister Abort.vi"/>
+				<Item Name="ELVIS III v1.0 RPC Unregister Heart Beat.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/ELVIS III v1.0/Resource Manager/vis/ELVIS III v1.0 RPC Unregister Heart Beat.vi"/>
+				<Item Name="ELVIS III v1.0 RPC Unreserve Resouce.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/ELVIS III v1.0/Resource Manager/vis/ELVIS III v1.0 RPC Unreserve Resouce.vi"/>
 				<Item Name="ELVIS III v1.0 Unreserve AI.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/ELVIS III v1.0/AI/vis/ELVIS III v1.0 Unreserve AI.vi"/>
+				<Item Name="ELVIS III v1.0 Unreserve Channel List Core.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/ELVIS III v1.0/Resource Manager/vis/ELVIS III v1.0 Unreserve Channel List Core.vi"/>
 				<Item Name="ELVIS III v1.0 Unreserve Channel List.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/ELVIS III v1.0/Resource Manager/vis/ELVIS III v1.0 Unreserve Channel List.vi"/>
 				<Item Name="ELVIS III v1.0 Unreserve Channel.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/ELVIS III v1.0/Resource Manager/vis/ELVIS III v1.0 Unreserve Channel.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -1812,6 +1820,7 @@ AddOutputFilter chunkFilter
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Unlock Mutex.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Unlock Mutex.vi"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
@@ -1834,6 +1843,7 @@ AddOutputFilter chunkFilter
 				<Property Name="App_INI_aliasGUID" Type="Str">{CF754994-A666-492F-9B22-8AD1C37749D9}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{1F31518B-5F79-4487-8445-4C9CBA000405}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{5249ADF7-9918-4B2A-8DAF-C2EA74533E30}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">My Real-Time Application</Property>
@@ -1845,7 +1855,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3A9E6E4F-57B9-47CF-9DEF-D1DD9CE11051}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -1856,7 +1866,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6A52EDD5-C9B1-4D3F-850D-D01DACB27DAC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A49F3340-7863-4A2B-BFC4-A9B36728650C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/NI-myRIO-1900-030490ba/Modules/RT Main/RT Main.lvlib/Main.vi</Property>
