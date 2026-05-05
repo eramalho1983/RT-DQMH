@@ -56,8 +56,10 @@
 		<Item Name="Private Requests" Type="Folder">
 			<Item Name="Priv Req Arguments" Type="Folder">
 				<Item Name="Open Connection Argument--cluster.ctl" Type="VI" URL="../Open Connection Argument--cluster.ctl"/>
+				<Item Name="Start Helper Loop Argument--cluster.ctl" Type="VI" URL="../Start Helper Loop Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Open Connection.vi" Type="VI" URL="../Open Connection.vi"/>
+			<Item Name="Start Helper Loop.vi" Type="VI" URL="../Start Helper Loop.vi"/>
 		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
