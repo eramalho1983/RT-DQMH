@@ -46,7 +46,7 @@
 				<Item Name="Write TDMS.vi" Type="VI" URL="../Write TDMS.vi"/>
 				<Item Name="Write to UDP.vi" Type="VI" URL="../Write to UDP.vi"/>
 				<Item Name="Read Digital Input.vi" Type="VI" URL="../Read Digital Input.vi"/>
-				<Item Name="Read from UDP.vi" Type="VI" URL="../Read from UDP.vi"/>
+				<Item Name="System Status.vi" Type="VI" URL="../System Status.vi"/>
 			</Item>
 			<Item Name="Type Defs" Type="Folder">
 				<Item Name="Control Loop Cluster.ctl" Type="VI" URL="../Control Loop Cluster.ctl"/>
@@ -77,9 +77,11 @@
 			<Item Name="Priv Req Arguments" Type="Folder">
 				<Item Name="Launch Control Loop Argument--cluster.ctl" Type="VI" URL="../Launch Control Loop Argument--cluster.ctl"/>
 				<Item Name="RT FIFO Ref Argument--cluster.ctl" Type="VI" URL="../RT FIFO Ref Argument--cluster.ctl"/>
+				<Item Name="Create RT FIFOs Argument--cluster.ctl" Type="VI" URL="../Create RT FIFOs Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Launch Control Loop.vi" Type="VI" URL="../Launch Control Loop.vi"/>
 			<Item Name="Get RT FIFO HW Ref.vi" Type="VI" URL="../Get RT FIFO HW Ref.vi"/>
+			<Item Name="Create RT FIFOs.vi" Type="VI" URL="../Create RT FIFOs.vi"/>
 		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
@@ -106,10 +108,21 @@
 			<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>
 			<Item Name="Open VI Panel.vi" Type="VI" URL="../Open VI Panel.vi"/>
 		</Item>
+		<Item Name="RT FIFOs Management" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Create all RT FIFOS.vi" Type="VI" URL="../Create all RT FIFOS.vi"/>
+			<Item Name="Create AIs RT FIFO.vi" Type="VI" URL="../Create AIs RT FIFO.vi"/>
+			<Item Name="Create DIOs RT FIFO.vi" Type="VI" URL="../Create DIOs RT FIFO.vi"/>
+			<Item Name="Create System Status RT FIFO.vi" Type="VI" URL="../Create System Status RT FIFO.vi"/>
+			<Item Name="Write AIs RT FIFO.vi" Type="VI" URL="../Write AIs RT FIFO.vi"/>
+			<Item Name="Write DIOs RT FIFO.vi" Type="VI" URL="../Write DIOs RT FIFO.vi"/>
+		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Hardware Monitoring TL--cluster.ctl" Type="VI" URL="../Hardware Monitoring TL--cluster.ctl"/>
 			<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
+			<Item Name="RT FIFOS--cluster.ctl" Type="VI" URL="../RT FIFOS--cluster.ctl"/>
 		</Item>
+		<Item Name="Get System Status.vi" Type="VI" URL="../Get System Status.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

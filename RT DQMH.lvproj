@@ -10,6 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Common Files" Type="Folder">
+			<Item Name="Common Files.lvlib" Type="Library" URL="../Libraries/Common Files/Common Files.lvlib"/>
+		</Item>
 		<Item Name="Libraries" Type="Folder">
 			<Item Name="UDP Comms.lvlib" Type="Library" URL="../Libraries/UDP Comms/UDP Comms.lvlib"/>
 			<Item Name="Utilities.lvlib" Type="Library" URL="../Libraries/Utilities/Utilities.lvlib"/>
@@ -1868,6 +1871,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Common Files.lvlib" Type="Library" URL="../Libraries/Common Files/Common Files.lvlib"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

@@ -50,15 +50,16 @@
 			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
-			<Item Name="Connect to Target.vi" Type="VI" URL="../Connect to Target.vi"/>
 			<Item Name="Request Connections to Target.vi" Type="VI" URL="../Request Connections to Target.vi"/>
 			<Item Name="Update Polling Time.vi" Type="VI" URL="../Update Polling Time.vi"/>
+			<Item Name="Connect to Target.vi" Type="VI" URL="../Connect to Target.vi"/>
 			<Item Name="Disconnect from Target.vi" Type="VI" URL="../Disconnect from Target.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
 		<Item Name="Obtain Broadcast Events for Registration.vi" Type="VI" URL="../Obtain Broadcast Events for Registration.vi"/>
 		<Item Name="Null Broadcast Events--constant.vi" Type="VI" URL="../Null Broadcast Events--constant.vi"/>
+		<Item Name="Launch Module.vi" Type="VI" URL="../Launch Module.vi"/>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
