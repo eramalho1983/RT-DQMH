@@ -1,6 +1,13 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="21008000">
-	<Property Name="NI.Lib.Icon" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)^!!!*Q(C=\&gt;5^&lt;B.2&amp;-8R![+A^1I3?1NX!44?AMOUN\#5WG5IP97T!!IMM1,X6(=,:AH?A#/&amp;`TR@/2;#O!'%5.\E/40H@@XS:DS22HEPP&gt;04N&lt;*[M83\2,UY%3&gt;[&lt;D]FZR0VV78\[K*^^.$KF_.80YY`,8P[_.H[,`GP&amp;,W7V`*`FY^8PQ2``(PQ2N/,C&amp;J55Z-;GJ:^+P)C,`)C,`)C.\H*47ZSEZM]S:-]S:-]S:-]S)-]S)-]S).](/1C&amp;\H))27,&amp;QM6ER94&amp;*WBK0AI0)7H]"1?,F6Y#E`B+4S&amp;BSYK0)7H]"3?QM-Q&amp;:\#5XA+4_&amp;BKC'J=:$D+4R-,_-R(O-R(O.B32G0!:D&amp;T-2G%BASD?&lt;%?)T(?$C6]2C0]2C0]&gt;!MYT%?YT%?YW()W"50T831YW%;*:\%EXA34_*B;C7?R*.Y%E`C94EFHM34)*)&amp;E]EB+"G5&gt;%AO%E`CY:=34_**0)EH]&gt;!U\F#/H:EUUU'/*`!%HM!4?!)05SDQ"*\!%XA#$^-K]!3?Q".Y!A^,+@!%HM!41)*&amp;76\":-(!I&amp;-1""Z_RN-3YSZZ3')=5D_][I&gt;3`&lt;#J(S,VQ['_[?K&lt;K&lt;Z*[MV8&lt;[J[M^3&lt;I0\DV'AV2LW)?P$551=_^^1&gt;&gt;5P&gt;5.@5*86"H6.HU^$@X0&amp;Q/'C`XWOXWWG\X7KTW7C^8GOZ8'KR7'A_HWMWGZV@!\==ZR@#]XPJ]&gt;P^T@(OU].R``H$]?\,Q_08_ZO`^0`Z(XAX[KUOVW#0PA-CXFKM!!!!!!</Property>
+	<Property Name="EndevoGOOP_ColorFrame" Type="UInt">0</Property>
+	<Property Name="EndevoGOOP_ColorHeader" Type="UInt">786176</Property>
+	<Property Name="EndevoGOOP_ColorPrivate" Type="UInt">12569509</Property>
+	<Property Name="EndevoGOOP_ColorPublic" Type="UInt">16777215</Property>
+	<Property Name="EndevoGOOP_ColorTextBody" Type="UInt">0</Property>
+	<Property Name="EndevoGOOP_ColorTextHeader" Type="UInt">0</Property>
+	<Property Name="EndevoGOOP_FrameThickness" Type="UInt">1</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)Y!!!*Q(C=\&gt;7^D2.2&amp;-8R!S)A&gt;1@),&gt;Q7('Q$&lt;O'WY(1`EGHB3I317)1EFC0SUY*&lt;=!PG0]`8VAL1/A'%U,\R'^PH@@XWT8B7'O7^^%[H7W8X9OHWU?^]WJV0VY&lt;TW_5VGC[@@RB`;&gt;_&gt;@GZ`0H\XC`%XWF`QXSB[,;`F`S\X.X]%@`RX]%&lt;TAYBK;F'4'JK80:H=Z#9XO=F.8O2&amp;8O2&amp;8O2&amp;HO2*HO2*HO2*(O2"(O2"(O2"0AZSE9N=Z*$-YG9B-[G:Q(3')H-S(O-R(O0BKYT(?)T(?)S(,D)?YT%?YT%?BMFYD-&gt;YD-&gt;YG'J)0!ZS0-&lt;$^#I]B;@Q&amp;*\#QZ)K0!7A7+S9O*A%BIL'YE0B+4S&amp;BY]K0)7H]"3?QE/T#E`B+4S&amp;J`!Q:/R+$=V]E/.B'C7?R*.Y%E`C97IFHM34?"*0YG%Z*:\%ES#3":0*)3A:F(2)PC3?R-/&lt;%E`C34S**`(1.+Z1DJW:.@."DC@Q"*\!%XA#$V-I]!3?Q".Y!A`4+P!%HM!4?!)03SHQ"*\!%U##26F?Q74"Q+"4%!1?8O.OC8'6;EBC(&amp;,@P/K&lt;5HWTK7]C^=WBPODKC[G_3/L.6W_K?L05G[$_Y^2I.5;^C(LQX&amp;&amp;(TA@KHLKF4N1.&gt;5V&gt;5:@5R4TU.X=](I][(!\;\`@;&lt;L?;JEG&lt;T5&lt;L^6KLV5L,Z6+,R?,['0D!=8UAH*^,^XR__PDZW_0&gt;VY?H[=P$Y^WH5?@],`R``A??D8KLZWOQ2^]"+EGS4!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
@@ -35,6 +42,7 @@
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
 		<Item Name="Obtain Broadcast Events for Registration.vi" Type="VI" URL="../Obtain Broadcast Events for Registration.vi"/>
 		<Item Name="Null Broadcast Events--constant.vi" Type="VI" URL="../Null Broadcast Events--constant.vi"/>
+		<Item Name="Launch Module.vi" Type="VI" URL="../Launch Module.vi"/>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -79,6 +87,7 @@
 			<Item Name="Open VI Panel.vi" Type="VI" URL="../Open VI Panel.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
+			<Item Name="Connected Hosts List Action--enum.ctl" Type="VI" URL="../Connected Hosts List Action--enum.ctl"/>
 			<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 		</Item>
 	</Item>
@@ -108,6 +117,17 @@
 		<Item Name="Get Module Running State.vi" Type="VI" URL="../Get Module Running State.vi"/>
 		<Item Name="Is Safe to Destroy Refnums.vi" Type="VI" URL="../Is Safe to Destroy Refnums.vi"/>
 		<Item Name="Module Running State--enum.ctl" Type="VI" URL="../Module Running State--enum.ctl"/>
+	</Item>
+	<Item Name="Public" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Connected Hosts List" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Init Hosts List.vi" Type="VI" URL="../Clone Registration/Init Hosts List.vi"/>
+			<Item Name="List Hosts Instances.vi" Type="VI" URL="../Clone Registration/List Hosts Instances.vi"/>
+			<Item Name="Add new Host to the List.vi" Type="VI" URL="../Clone Registration/Add new Host to the List.vi"/>
+			<Item Name="Remove Host from the List.vi" Type="VI" URL="../Clone Registration/Remove Host from the List.vi"/>
+			<Item Name="Connected Hosts List.vi" Type="VI" URL="../Clone Registration/Connected Hosts List.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

@@ -203,6 +203,10 @@ AddOutputFilter chunkFilter
 				<Item Name="RT Interpreter (old).lvlib" Type="Library" URL="../Modules/RT/RT Interpreter (old)/RT Interpreter (old).lvlib"/>
 				<Item Name="Test RT Interpreter (old) API-RT.vi" Type="VI" URL="../Modules/RT/RT Interpreter (old)/Test RT Interpreter (old) API-RT.vi"/>
 			</Item>
+			<Item Name="RT Interpreter Manager" Type="Folder">
+				<Item Name="RT Interpreter Manager.lvlib" Type="Library" URL="../Modules/RT/RT Interpreter/Manager/RT Interpreter Manager.lvlib"/>
+				<Item Name="Test RT Interpreter Manager API-RT.vi" Type="VI" URL="../Modules/RT/RT Interpreter/Manager/Test RT Interpreter Manager API-RT.vi"/>
+			</Item>
 			<Item Name="RT Main" Type="Folder">
 				<Item Name="RT Main.lvlib" Type="Library" URL="../Modules/RT/RT Main/RT Main.lvlib"/>
 				<Item Name="Test RT Main API-RT.vi" Type="VI" URL="../Modules/RT/RT Main/Test RT Main API-RT.vi"/>
@@ -1871,6 +1875,7 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="UDP Comms.lvlib" Type="Library" URL="../Libraries/UDP Comms/UDP Comms.lvlib"/>
+			<Item Name="Utilities.lvlib" Type="Library" URL="../Libraries/Utilities/Utilities.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
