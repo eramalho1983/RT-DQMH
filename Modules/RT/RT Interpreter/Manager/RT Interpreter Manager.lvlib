@@ -37,8 +37,6 @@
 				<Item Name="Hello ACK.vi" Type="VI" URL="../Hello ACK.vi"/>
 				<Item Name="Reply Target Connections.vi" Type="VI" URL="../Reply Target Connections.vi"/>
 				<Item Name="Bye ACK.vi" Type="VI" URL="../Bye ACK.vi"/>
-				<Item Name="Update AOs Values.vi" Type="VI" URL="../Update AOs Values.vi"/>
-				<Item Name="Update DOs Values.vi" Type="VI" URL="../Update DOs Values.vi"/>
 			</Item>
 			<Item Name="Show Panel.vi" Type="VI" URL="../Show Panel.vi"/>
 			<Item Name="Hide Panel.vi" Type="VI" URL="../Hide Panel.vi"/>

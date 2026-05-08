@@ -110,12 +110,22 @@
 		</Item>
 		<Item Name="RT FIFOs Management" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="DIOs" Type="Folder">
+				<Item Name="Create DIOs RT FIFO.vi" Type="VI" URL="../Create DIOs RT FIFO.vi"/>
+				<Item Name="Write DIOs RT FIFO.vi" Type="VI" URL="../Write DIOs RT FIFO.vi"/>
+				<Item Name="Delete DIOs RT FIFO.vi" Type="VI" URL="../Delete DIOs RT FIFO.vi"/>
+			</Item>
+			<Item Name="AIs" Type="Folder">
+				<Item Name="Create AIs RT FIFO.vi" Type="VI" URL="../Create AIs RT FIFO.vi"/>
+				<Item Name="Write AIs RT FIFO.vi" Type="VI" URL="../Write AIs RT FIFO.vi"/>
+				<Item Name="Delete AIs RT FIFO.vi" Type="VI" URL="../Delete AIs RT FIFO.vi"/>
+			</Item>
+			<Item Name="System Status" Type="Folder">
+				<Item Name="Create System Status RT FIFO.vi" Type="VI" URL="../Create System Status RT FIFO.vi"/>
+				<Item Name="Delete System Status RT FIFO.vi" Type="VI" URL="../Delete System Status RT FIFO.vi"/>
+			</Item>
 			<Item Name="Create all RT FIFOS.vi" Type="VI" URL="../Create all RT FIFOS.vi"/>
-			<Item Name="Create AIs RT FIFO.vi" Type="VI" URL="../Create AIs RT FIFO.vi"/>
-			<Item Name="Create DIOs RT FIFO.vi" Type="VI" URL="../Create DIOs RT FIFO.vi"/>
-			<Item Name="Create System Status RT FIFO.vi" Type="VI" URL="../Create System Status RT FIFO.vi"/>
-			<Item Name="Write AIs RT FIFO.vi" Type="VI" URL="../Write AIs RT FIFO.vi"/>
-			<Item Name="Write DIOs RT FIFO.vi" Type="VI" URL="../Write DIOs RT FIFO.vi"/>
+			<Item Name="Delete all RT FIFOS.vi" Type="VI" URL="../Delete all RT FIFOS.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Hardware Monitoring TL--cluster.ctl" Type="VI" URL="../Hardware Monitoring TL--cluster.ctl"/>

@@ -4,5 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Get Host Remote IP&amp;Port.vi" Type="VI" URL="../Get Host Remote IP&amp;Port.vi"/>
 	<Item Name="Get Local IP.vi" Type="VI" URL="../Get Local IP.vi"/>
 </Library>
